@@ -12,7 +12,7 @@ function run(input, parameters) {
 	dir = dir.replace(/%20/g,' ');
 	
 	//	Now launch iterm, navagate to the right directory
-	var iTerm = Application("iTerm");
+	var iTerm = Application("iTerm2");
 	var win = iTerm.createWindowWithDefaultProfile();
 	var tab = win.currentTab();
 	var ses = tab.currentSession();
